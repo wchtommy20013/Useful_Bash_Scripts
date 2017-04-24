@@ -1,7 +1,8 @@
 # Useful_Bash_Scripts
-
-##Functions
-###1. Swapfile
+## Installation
+Put the function you needed into ~/bin/!
+## Functions
+### 1. Swapfile
 Usage:
 ```
   $echo 1 > 1.txt

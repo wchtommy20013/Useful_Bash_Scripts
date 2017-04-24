@@ -2,7 +2,7 @@
 
 if [ "$#" -eq  "2" ] 
 	then
-		echo Swapping $1 to $2...
+		echo Swapping $1 and $2...
 		mv $1 .thisistmpfileforswappingpurpose
 		mv $2 $1
 		mv .thisistmpfileforswappingpurpose $2
