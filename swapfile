@@ -1,0 +1,14 @@
+#!/bin/bash
+
+if [ "$#" -eq  "2" ] 
+	then
+		echo Swapping $1 to $2...
+		mv $1 .thisistmpfileforswappingpurpose
+		mv $2 $1
+		mv .thisistmpfileforswappingpurpose $2
+		echo Done
+else
+	echo "Wrong Number of argument"
+fi
+
+
